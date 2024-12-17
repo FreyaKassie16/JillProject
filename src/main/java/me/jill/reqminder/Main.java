@@ -33,7 +33,5 @@ public class Main
         jill.markTaskAsComplete(0);
         System.out.println("Status after being marked as complete: " + jill.getTaskList().get(0).getStatus());
 
-
-        jill.viewTaskSummary();
     }
 }
